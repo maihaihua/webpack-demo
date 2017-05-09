@@ -1,0 +1,28 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "Demo for Webpack.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maihaihua/webpack-demo.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "maihaihua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maihaihua/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/maihaihua/webpack-demo#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "moment": "^2.18.1",
+    "vue": "^2.3.2",
+    "webpack": "^2.5.1"
+  }
+}
