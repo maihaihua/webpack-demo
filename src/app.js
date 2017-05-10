@@ -1,7 +1,5 @@
-var moment = require("moment");
 
-require('./css/a.css');
-
-console.log(moment().format());
-
-document.getElementById("result").innerHTML = moment().format();
+require.ensure(["moment"],function(require){
+    var moment = require("moment");
+    console.log(moment().format());
+},"async")

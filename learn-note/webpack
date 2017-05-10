@@ -1,3 +1,4 @@
 1.publicPath:
     模板中插入文件的路径为 publicPath + filename
+    publicPath最好用“/”结尾，否则在某些情况（require.ensure）引入路径会前后粘连在一起。
 2.
